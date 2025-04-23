@@ -32,7 +32,7 @@ const Feed = () => {
   return (
     feed && ( <div className='flex justify-center my-10'>
       <UserCard user={feed[0]}/>
-      <h1 className='text-pink-300 text-6xl my-auto animate-sliding-text font-bold'>Start <span className='text-pink-400gi'>  Something </span>Epic...</h1>
+      <h1 className='text-pink-300 text-6xl my-auto animate-sliding-text font-bold'>Start <span className='text-pink-400'>  Something </span>Epic...</h1>
     </div>)
    
   )

@@ -38,9 +38,13 @@ const Connections = () => {
         console.log(_id)
         return(
             <div key={_id} className='flex m-4 p-4 rounded-lg bg-base-300 w-1/2 mx-auto'>
-                <div><img alt='photo'
-                className='w-20 h-20 rounded-full'
-                src={photoUrl}/></div>
+      <div className="w-24 h-24 rounded-full overflow-hidden border shadow-md shrink-0 my-auto">
+              <img
+            src={photoUrl}
+            alt="Profile"
+            className="w-full h-full object-cover object-center"
+             />
+      </div>
 
                 <div className='text-left mx-4'>
                     <h2 className='font-bold text-xl'>
